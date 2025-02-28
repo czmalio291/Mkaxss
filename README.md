@@ -1,2 +1,5 @@
 # Mkaxss
-just some joke script or fake script for my friend who likes exploiting all times , i hate it
+just some fake script or troll script for my friend who likes exploiting all times , i hate it
+just script only kicks you out the game
+
+# THIS ONLY MADE FOR PEOPLE WHO AREN'T SMART ENOUGH TO UNDERSTAND THE SCRIPT
