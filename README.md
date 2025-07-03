@@ -1,6 +1,6 @@
-# Mkaxss
-just some fake script or troll script for my friend who likes exploiting all times , i hate it
+# Mkaxsss
+It's just some random script only troll inexperienced people about roblox scripting
 
-just script only kicks you out the game
+This script only kicks you out the game, so that is
 
 # THIS ONLY MADE FOR PEOPLE WHO ARE NEW TO EXPLOITING
