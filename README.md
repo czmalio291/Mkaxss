@@ -3,4 +3,4 @@ It's just some random script only troll inexperienced people about roblox script
 
 This script only kicks you out the game, so that is
 
-# THIS ONLY MADE FOR PEOPLE WHO ARE NEW TO EXPLOITING
+# THIS ONLY MADE FOR PEOPLE WHO ARE INEXPERIENCED ROBLOX SCRIPTING OR EXPLOITING
