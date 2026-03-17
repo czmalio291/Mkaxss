@@ -8,10 +8,10 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Jumper"
 	m.Description = "ometry ash"
-	m.Assets      = {"jumper.anim", "jumper.mp3"}
+	m.Assets      = {"jumper.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/jumper.anim", "jumper.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/jumper.mp3"}
 
 	m.Config = function(parent)
-		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
+		Util_CreateText(parent, "refence to one dude dancing like that", 14, Enum.TextXAlignment.Center)
 	end
 
 	m.SaveConfig = function() return {} end
