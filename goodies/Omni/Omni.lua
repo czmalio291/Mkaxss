@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Omni"
 	m.Description = "500 years of constant human evolution"
-	m.Assets      = {"omni.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/omni.anim", "omni.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/jumper.mp3"}
+	m.Assets      = {"omni.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/omni.anim", "omni.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/omni.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "how do i add distortionsoundeffect?", 14, Enum.TextXAlignment.Center)
