@@ -7,7 +7,7 @@ table.insert(modules, function()
 
 	m.ModuleType  = "DANCE"
 	m.Name        = "XD Meme"
-	m.Description = "oh god no\nWould colonthreespam likes this one?\n:3 :3 :3 :3 :3 :3 :3 "
+	m.Description = "oh god no\nWould the colonthreespam likes this one?\n:3 :3 :3 :3 :3 :3 :3 "
 	m.Assets      = {"xd.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/xd.anim", "xd.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/xd.mp3"}
 
 	m.Config = function(parent)
