@@ -21,7 +21,7 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("Onion.mp3"))
+		SetOverrideDanceMusic(AssetGetContentId("Onion.mp3"), "onion", 0.8, NumberRange.new(0, 9.429))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
