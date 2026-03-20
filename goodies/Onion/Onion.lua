@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Onion"
 	m.Description = "What if we say chocolate instead of onion!!!!!"
-	m.Assets      = {"Onion.anim", "Onion.mp3"}
+	m.Assets      = {"Onion.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Onion.anim", "Onion.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Onion.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
