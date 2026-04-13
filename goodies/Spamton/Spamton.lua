@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Spamton"
 	m.Description = "THAT'S RIGHT!! NOW'S YOUR CHANCE TO BE A [BIG SHOT]!!"
-	m.Assets      = {"Spamton.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Spamton.anim", "Spamton.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Spamton.mp3"}
+	m.Assets      = {"nil_Spamton.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Spamton.anim", "nil_Spamton.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Spamton.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
@@ -21,12 +21,12 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("Spamton.mp3"))
+		SetOverrideDanceMusic(AssetGetContentId("nil_Spamton.mp3"))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
 		animator.rig    = figure
-		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("Spamton.anim"))
+		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_Spamton.anim"))
 		animator.looped = true
 		animator.speed  = 1
 	end
