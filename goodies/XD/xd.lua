@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "XD Meme"
 	m.Description = "oh god no\nWould the colonthreespam likes this one?\n:3 :3 :3 :3 :3 :3 :3 "
-	m.Assets      = {"xd.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/xd.anim", "xd.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/xd.mp3"}
+	m.Assets      = {"nil_xd.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_xd.anim", "nil_xd.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_xd.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "another item asylum emote", 14, Enum.TextXAlignment.Center)
@@ -21,12 +21,12 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("xd.mp3"))
+		SetOverrideDanceMusic(AssetGetContentId("nil_xd.mp3"))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
 		animator.rig    = figure
-		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("xd.anim"))
+		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_xd.anim"))
 		animator.looped = true
 		animator.speed  = 1
 	end
