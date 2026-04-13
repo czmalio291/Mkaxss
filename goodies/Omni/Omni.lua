@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Omni"
 	m.Description = "500 years of constant human evolution"
-	m.Assets      = {"omni.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/omni.anim", "omni.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/omni.mp3"}
+	m.Assets      = {"nil_omni.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_omni.anim", "nil_omni.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_omni.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "how do i add distortionsoundeffect?", 14, Enum.TextXAlignment.Center)
@@ -21,12 +21,12 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("omni.mp3"), "omniman", 0.8, NumberRange.new(0, 39))
+		SetOverrideDanceMusic(AssetGetContentId("nil_omni.mp3"), "omniman", 1, NumberRange.new(0, 39))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
 		animator.rig    = figure
-		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("omni.anim"))
+		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_omni.anim"))
 		animator.looped = false
 		animator.speed  = 1
 	end
