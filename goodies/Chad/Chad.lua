@@ -1,4 +1,4 @@
--- UhhhhhhReanim/Modules/chad.lua
+-- UhhhhhhReanim/Modules/Chad.lua
 
 local modules = {}
 
@@ -8,10 +8,10 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Chad"
 	m.Description = "can't outchad the chad"
-	m.Assets      = {"chad.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/chad.anim", "chad.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/chad.mp3"}
+	m.Assets      = {"nil_Chad.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Chad.anim", "nil_Chad.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Chad.mp3"}
 
 	m.Config = function(parent)
-		Util_CreateText(parent, ":3 :3 :3 :3 :3 :3", 14, Enum.TextXAlignment.Center)
+		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
 	end
 
 	m.SaveConfig = function() return {} end
@@ -21,12 +21,12 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("chad.mp3"))
+		SetOverrideDanceMusic(AssetGetContentId("nil_Chad.mp3"))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
 		animator.rig    = figure
-		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("chad.anim"))
+		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_Chad.anim"))
 		animator.looped = true
 		animator.speed  = 1
 	end
