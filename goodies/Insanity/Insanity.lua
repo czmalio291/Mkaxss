@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Insanity"
 	m.Description = "Ran Ran Ruu!"
-	m.Assets      = {"Insanity.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Insanity.anim", "Insanity.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Insanity.mp3"}
+	m.Assets      = {"nil_Insanity.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Insanity.anim", "nil_Insanity.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Insanity.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "where is my burger?", 14, Enum.TextXAlignment.Center)
@@ -21,12 +21,12 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("insanity.mp3"), "IAinsanity", 0.8, NumberRange.new(0, 20.16))
+		SetOverrideDanceMusic(AssetGetContentId("nil_insanity.mp3"), "IAinsanity", 0.8, NumberRange.new(0, 600))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
 		animator.rig    = figure
-		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("insanity.anim"))
+		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_insanity.anim"))
 		animator.looped = false
 		animator.speed  = 1
 	end
