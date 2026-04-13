@@ -7,8 +7,8 @@ table.insert(modules, function()
 
 	m.ModuleType  = "DANCE"
 	m.Name        = "One Two Three"
-	m.Description = "One two three de arukidase\n\nAdded flipped version why not?"
-	m.Assets      = {"123.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/123.anim", "123_F.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/123_F.anim", "123.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/123.mp3"}
+	m.Description = "One two three de arukidase!\n \nAdded flipped version why not?"
+	m.Assets      = {"nil_123.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_123.anim", "nil_123_F.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_123_F.anim", "nil_123.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_123.mp3"}
 
 	m.Flip = false
 	m.Config = function(parent)
@@ -31,7 +31,7 @@ table.insert(modules, function()
 	local start = 0
 
 	m.Init = function(figure: Model)
-		SetOverrideDanceMusic(AssetGetContentId("123.mp3"))
+		SetOverrideDanceMusic(AssetGetContentId("nil_123.mp3"))
 
 		start = os.clock()
 		animator        = AnimLib.Animator.new()
@@ -39,9 +39,9 @@ table.insert(modules, function()
 		animator.looped = true
 		animator.speed  = 1
 		if m.Flip then
-			animator.track = AnimLib.Track.fromfile(AssetGetPathFromFilename("123_F.anim"))
+			animator.track = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_123_F.anim"))
 		else
-			animator.track = AnimLib.Track.fromfile(AssetGetPathFromFilename("123.anim"))
+			animator.track = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_123.anim"))
 		end
 	end
 
