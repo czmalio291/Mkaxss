@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Paranormal Swagtivity"
 	m.Description = "stop you're scaring everyone away"
-	m.Assets      = {"Paranormal.anim@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/Paranormal.anim", "Paranormal.mp3@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/Paranormal.mp3"}
+	m.Assets      = {"nil_Paranormal.anim@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/nil_Paranormal.anim", "nil_Paranormal.mp3@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/nil_Paranormal.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
@@ -21,12 +21,12 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("Paranormal.mp3"), "Dance of knight", 1, NumberRange.new(0, 600))
+		SetOverrideDanceMusic(AssetGetContentId("nil_Paranormal.mp3"), "Night of nights", 1, NumberRange.new(0, 600))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
 		animator.rig    = figure
-		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("Paranormal.anim"))
+		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_Paranormal.anim"))
 		animator.looped = true
 		animator.speed  = 1
 	end
