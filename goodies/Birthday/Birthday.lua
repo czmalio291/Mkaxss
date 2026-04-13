@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Birthday"
 	m.Description = "Ots my birthday today"
-	m.Assets      = {"Birthday.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Birthday.anim", "Birthday.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/Birthday.mp3"}
+	m.Assets      = {"nil_Birthday.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Birthday.anim", "nil_Birthday.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Birthday.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
@@ -21,12 +21,12 @@ table.insert(modules, function()
 	local start    = 0
 
 	m.Init = function(figure)
-		SetOverrideDanceMusic(AssetGetContentId("Birthday.mp3"))
+		SetOverrideDanceMusic(AssetGetContentId("nil_Birthday.mp3"))
 
 		start           = os.clock()
 		animator        = AnimLib.Animator.new()
 		animator.rig    = figure
-		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("Birthday.anim"), "today", 0.7, NumberRange.new(0, 67))
+		animator.track  = AnimLib.Track.fromfile(AssetGetPathFromFilename("nil_Birthday.anim")
 		animator.looped = true
 		animator.speed  = 1
 	end
