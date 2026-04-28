@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "Paranormal Swagtivity"
 	m.Description = "stop you're scaring everyone away"
-	m.Assets      = {"nil_Paranormal.anim@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/nil_Paranormal.anim", "nil_Paranormal.mp3@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/nil_Paranormal.mp3"}
+	m.Assets      = {"nil_Paranormal.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Paranormal.anim", "nil_Paranormal.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Paranormal.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
