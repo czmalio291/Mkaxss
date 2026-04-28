@@ -1,4 +1,4 @@
--- UhhhhhhReanim/Modules/Greedly.lua
+-- UhhhhhhReanim/Modules/Greedy.lua
 
 local modules = {}
 
