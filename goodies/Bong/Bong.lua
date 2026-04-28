@@ -8,7 +8,7 @@ table.insert(modules, function()
 	m.ModuleType  = "DANCE"
 	m.Name        = "운테르게임"
 	m.Description = "he so jolly"
-	m.Assets      = {"nil_Bong.anim@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/nil_Bong.anim", "nil_Bong.mp3@https://github.com/czmalio291/Mkaxss/blob/main/goodies/contents/nil_Bong.mp3"}
+	m.Assets      = {"nil_Bong.anim@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Bong.anim", "nil_Bong.mp3@https://github.com/czmalio291/Mkaxss/raw/refs/heads/main/goodies/contents/nil_Bong.mp3"}
 
 	m.Config = function(parent)
 		Util_CreateText(parent, "No settings.", 14, Enum.TextXAlignment.Center)
